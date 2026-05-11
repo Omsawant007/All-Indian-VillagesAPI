@@ -8,6 +8,6 @@
   "scripts": {
     "backend": "npm run dev --workspace=apps/backend",
     "frontend": "npm run dev --workspace=apps/frontend",
-    "vercel-build": "cd apps/backend && npx prisma generate"
+    "vercel-build": "npm run build --workspace=apps/frontend && cd apps/backend && npx prisma generate"
   }
 }

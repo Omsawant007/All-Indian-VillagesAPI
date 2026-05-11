@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "apps/frontend/dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
+    { "source": "/health", "destination": "/api/index.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
