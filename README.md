@@ -8,7 +8,7 @@ A production-grade B2B SaaS platform providing REST API access to India's comple
 - Manages API keys, rate limiting, and billing tiers
 
 ## Live URLs
-[https://india-geo-saas-obt4.vercel.app] (https://all-indian-villages-api.vercel.app/)
+  (https://all-indian-villages-api.vercel.app/)
 
 
 ## Tech Stack
