@@ -1,0 +1,14 @@
+# Query: http://localhost:5173
+# ContextLines: 1
+
+2 results - 2 files
+
+apps\backend\src\index.js:
+  20    "https://india-geo-saas-obt4.vercel.app",
+  21:   "http://api.villageapi.com/v1/"
+  22  ];
+
+src\index.js:
+  33  app.use(cors({
+  34:   origin: process.env.FRONTEND_URL || "http://api.villageapi.com/v1/",
+  35    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
