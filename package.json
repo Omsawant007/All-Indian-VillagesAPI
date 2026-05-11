@@ -2,6 +2,9 @@
   "name": "india-geo-saas",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "backend": "npm run dev --workspace=apps/backend",
     "frontend": "npm run dev --workspace=apps/frontend",

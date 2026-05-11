@@ -26,3 +26,12 @@ https://india-geo-saas-obt4.vercel.app
 | Pro | 300,000 | ₹4,999/mo |
 | Unlimited | 1,000,000 | Custom |
 
+frist backned 
+npm install
+npx prisma generate
+npm run seed 
+npm run dev
+
+go to frontend
+npm install 
+npm run dev 

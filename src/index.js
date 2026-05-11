@@ -31,7 +31,7 @@ const PORT = process.env.PORT || 3000;
 
 // CORS — only allow requests from your frontend
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "httpapi.villageapi.comv1",
+  origin: process.env.FRONTEND_URL || "http://localhost:5173",
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization", "X-API-Key", "X-API-Secret"],
   credentials: true,
