@@ -1,4 +1,4 @@
-# India Geo SaaS API Platform
+# India Village API Platform
 
 A production-grade B2B SaaS platform providing REST API access to India's complete village-level geographical data.
 
